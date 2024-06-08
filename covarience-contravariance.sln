@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "contravariance", "contravar
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "covarience", "covarience\covarience.csproj", "{00663D31-9EFE-48E6-99F0-D227A7376855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "both", "both\both.csproj", "{6D48797B-0E10-4F66-9338-3C953303FD13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{00663D31-9EFE-48E6-99F0-D227A7376855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00663D31-9EFE-48E6-99F0-D227A7376855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00663D31-9EFE-48E6-99F0-D227A7376855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D48797B-0E10-4F66-9338-3C953303FD13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D48797B-0E10-4F66-9338-3C953303FD13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D48797B-0E10-4F66-9338-3C953303FD13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D48797B-0E10-4F66-9338-3C953303FD13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

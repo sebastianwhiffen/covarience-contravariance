@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 
+namespace Covariance;
+
 public class Program
 {
     public static void PrintCustomerNames(IEnumerable<IRepository<Customer>> repositories)
