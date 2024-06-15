@@ -11,4 +11,6 @@ const repositories: IRepository<Iloan>[] =
     new ConsumerLoanRepository()
 ];
 
-repositories.forEach(repository => repository.ChangeStatus(new ConsumerLoan("1", "submited")));
+const loan: Iloan = new ConsumerLoan("1", "submitted");
+
+repositories.forEach(repository => repository.ChangeStatus(loan));

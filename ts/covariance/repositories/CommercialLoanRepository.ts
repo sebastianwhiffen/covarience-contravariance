@@ -1,6 +1,7 @@
 import { IRepository } from '../models/IRepository';
 import { Iloan } from '../models/Iloan';
 import { CommercialLoan } from '../models/CommercialLoan';
+import { ConsumerLoan } from '../models/ConsumerLoan';
 
 export class CommercialLoanRepository implements IRepository<CommercialLoan> {
 
